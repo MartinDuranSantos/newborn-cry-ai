@@ -10,13 +10,15 @@ from utils.tts import play_audio, text_to_speech
 
 ENDPOINT_URL = "http://127.0.0.1:8000/clasificar"
 DATASET_PATH = Path("/home/mds/PhD/MY_PROJECTS/infant-cri-ai/Dataset/archive/cry")
-HUNGRY_FOLDER = "hungry"
+HUNGRY_FOLDER = "lonely"
+SCARED_FOLDER = "scared"
+TIRED_FOLDER = "tired"
 SUPPORTED_FORMATS = {".wav", ".mp3", ".ogg", ".flac", ".m4a", ".3gp"}
 
 FRASES_CATEGORIA = {
     "dolor de barriga": "El bebé tiene dolor de barriga",
     "eructos": "El bebé necesita eructar",
-    "frío/calor": "El bebé siente frío o calor",
+    "frío/calor": "El bebé siente frío, o siente calor",
     "malestar": "El bebé siente malestar",
     "hambre": "El bebé tiene hambre",
     "risa": "El bebé se está riendo",

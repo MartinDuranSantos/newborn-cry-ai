@@ -2,25 +2,41 @@ import shutil
 import subprocess
 from pathlib import Path
 
-BIN_PATH = Path(__file__).resolve().parent / "bin" / "espeak-ng"
+VOICES_DIR = Path(__file__).resolve().parent / "voices"
+DEFAULT_MODEL = VOICES_DIR / "es_ES-sharvard-medium.onnx"
 
 
-def _find_espeak_ng() -> str:
-    if BIN_PATH.exists():
-        return str(BIN_PATH)
-    return shutil.which("espeak-ng") or ""  # pragma: no cover
+def _find_piper() -> str:
+    return shutil.which("piper") or ""
 
 
-def text_to_speech(text: str, output_path: str | Path, voice: str = "es-mx") -> Path:
-    binary = _find_espeak_ng()
-    if not binary:
-        raise FileNotFoundError("No se encontró espeak-ng")
+def text_to_speech(
+    text: str,
+    output_path: str | Path,
+    model: str | Path = DEFAULT_MODEL,
+    length_scale: float = 1.1,
+    noise_scale: float = 0.5,
+) -> Path:
+    piper = _find_piper()
+    if not piper:
+        raise FileNotFoundError("No se encontró piper")
 
     output = Path(output_path)
     output.parent.mkdir(parents=True, exist_ok=True)
 
-    subprocess.run(
-        [binary, "-w", str(output), "-v", voice, text],
+    process = subprocess.run(
+        [
+            piper,
+            "-m",
+            str(model),
+            "-f",
+            str(output),
+            "--length-scale",
+            str(length_scale),
+            "--noise-scale",
+            str(noise_scale),
+        ],
+        input=text.encode("utf-8"),
         check=True,
         capture_output=True,
     )

@@ -26,5 +26,145 @@
     "category": "hambre",
     "confidence": 0.3101191375721981,
     "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:14:40.297324+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:25:29.829679+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:25:47.487199+00:00",
+    "filename": "401c.wav",
+    "category": "dolor de barriga",
+    "confidence": 0.3817392498363642,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:25:47.675291+00:00",
+    "filename": "401c.wav",
+    "category": "dolor de barriga",
+    "confidence": 0.3817392498363642,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:25:48.004235+00:00",
+    "filename": "401c.wav",
+    "category": "dolor de barriga",
+    "confidence": 0.3817392498363642,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:29:54.323630+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:37:36.149511+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:40:07.412083+00:00",
+    "filename": "5f651112-d2a3-4911-b3a5-f37bfc092494-1430734603484-1.7-m-72-sc.wav",
+    "category": "hambre",
+    "confidence": 0.20576140280464275,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:41:45.061677+00:00",
+    "filename": "03ADDCFB-354E-416D-BF32-260CF47F7060-1433658024-1.1-f-04-ti.wav",
+    "category": "hambre",
+    "confidence": 0.2888757918863371,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:42:49.340311+00:00",
+    "filename": "100c.wav",
+    "category": "hambre",
+    "confidence": 0.30399677184653556,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:43:07.934774+00:00",
+    "filename": "10A40438-09AA-4A21-83B4-8119F03F7A11-1430925142-1.0-f-26-dc.wav",
+    "category": "hambre",
+    "confidence": 0.27092413467723697,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T15:43:32.147771+00:00",
+    "filename": "357c.wav",
+    "category": "hambre",
+    "confidence": 0.3344744539853764,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:00:31.006392+00:00",
+    "filename": "357c.wav",
+    "category": "hambre",
+    "confidence": 0.3344744539853764,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:01:01.179895+00:00",
+    "filename": "03ADDCFB-354E-416D-BF32-260CF47F7060-1433658024-1.1-f-04-ti.wav",
+    "category": "frío/calor",
+    "confidence": 0.20925000000000005,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:01:14.435938+00:00",
+    "filename": "03ADDCFB-354E-416D-BF32-260CF47F7060-1433658024-1.1-f-04-ti.wav",
+    "category": "frío/calor",
+    "confidence": 0.20925000000000005,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:02:08.946099+00:00",
+    "filename": "03ADDCFB-354E-416D-BF32-260CF47F7060-1433658024-1.1-f-04-ti.wav",
+    "category": "frío/calor",
+    "confidence": 0.20925000000000005,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:02:24.289038+00:00",
+    "filename": "03ADDCFB-354E-416D-BF32-260CF47F7060-1433658024-1.1-f-04-ti.wav",
+    "category": "frío/calor",
+    "confidence": 0.20925000000000005,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:03:36.555105+00:00",
+    "filename": "466c.wav",
+    "category": "frío/calor",
+    "confidence": 0.21858333333333335,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:03:57.112369+00:00",
+    "filename": "076e33bf-c599-4eee-a6e3-dbc1986ee493-1437288921225-1.7-f-72-lo.wav",
+    "category": "eructos",
+    "confidence": 0.18089285714285716,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:04:08.654555+00:00",
+    "filename": "076e33bf-c599-4eee-a6e3-dbc1986ee493-1437288921225-1.7-f-72-lo.wav",
+    "category": "eructos",
+    "confidence": 0.18089285714285716,
+    "warning": true
   }
 ]
