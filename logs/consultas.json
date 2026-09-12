@@ -1,93 +1,30 @@
 [
   {
-    "timestamp": "2026-09-11T12:21:06.683435+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
+    "timestamp": "2026-09-12T14:50:40.944943+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
     "warning": true
   },
   {
-    "timestamp": "2026-09-11T12:23:36.166486+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
+    "timestamp": "2026-09-12T15:05:13.510848+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
     "warning": true
   },
   {
-    "timestamp": "2026-09-11T12:23:36.323730+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
+    "timestamp": "2026-09-12T15:12:35.683396+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
     "warning": true
   },
   {
-    "timestamp": "2026-09-11T12:23:36.618946+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-11T12:23:47.478987+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-11T12:23:47.637355+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-11T12:23:47.877915+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-11T12:24:03.916659+00:00",
-    "filename": "401c.wav",
-    "category": "risa",
-    "confidence": 0.19,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-12T12:07:19.837701+00:00",
-    "filename": "401c.wav",
-    "category": "dolor de barriga",
-    "confidence": 0.3817392498363642,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-12T12:07:20.204234+00:00",
-    "filename": "bp-21.3gp",
-    "category": "dolor de barriga",
-    "confidence": 0.2068901957102839,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-12T13:55:38.686763+00:00",
-    "filename": "401c.wav",
-    "category": "dolor de barriga",
-    "confidence": 0.3817392498363642,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-12T13:55:38.886730+00:00",
-    "filename": "401c.wav",
-    "category": "dolor de barriga",
-    "confidence": 0.3817392498363642,
-    "warning": true
-  },
-  {
-    "timestamp": "2026-09-12T13:55:39.166582+00:00",
-    "filename": "401c.wav",
-    "category": "dolor de barriga",
-    "confidence": 0.3817392498363642,
+    "timestamp": "2026-09-12T15:13:18.904435+00:00",
+    "filename": "02c3b725-26e4-4a2c-9336-04ddc58836d9-1430726196216-1.7-m-04-hu.wav",
+    "category": "hambre",
+    "confidence": 0.3101191375721981,
     "warning": true
   }
 ]
