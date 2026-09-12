@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+librosa
+scikit-learn
+scipy
+pydub
+numpy
+joblib
+pytest
