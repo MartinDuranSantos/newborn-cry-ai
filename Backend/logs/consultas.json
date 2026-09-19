@@ -166,5 +166,33 @@
     "category": "eructos",
     "confidence": 0.18089285714285716,
     "warning": true
+  },
+  {
+    "timestamp": "2026-09-12T16:20:42.373469+00:00",
+    "filename": "076e33bf-c599-4eee-a6e3-dbc1986ee493-1437288921225-1.7-f-72-lo.wav",
+    "category": "eructos",
+    "confidence": 0.18089285714285716,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-18T05:27:24.618078+00:00",
+    "filename": "recorded_audio.3gp",
+    "category": "cansancio",
+    "confidence": 0.19527380952380952,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-18T05:28:22.829759+00:00",
+    "filename": "recorded_audio.3gp",
+    "category": "eructos",
+    "confidence": 0.16714285714285715,
+    "warning": true
+  },
+  {
+    "timestamp": "2026-09-18T05:32:56.193655+00:00",
+    "filename": "recorded_audio.3gp",
+    "category": "eructos",
+    "confidence": 0.195,
+    "warning": true
   }
 ]

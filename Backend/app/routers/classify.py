@@ -19,7 +19,7 @@ from app.services.logger import log_classification
 router = APIRouter(prefix="/clasificar", tags=["clasificar"])
 
 
-@router.post("", response_model=ClassifyResponse)
+@router.post("/", response_model=ClassifyResponse)
 async def classify_audio(file: UploadFile = File(...)) -> ClassifyResponse:
     filename = file.filename or "audio"
     suffix = Path(filename).suffix.lower()
