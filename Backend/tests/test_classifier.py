@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from app.config import CATEGORY_MAP, MODEL_PATH
+from app.config import CATEGORY_MAP, FULL_MODEL_PATH
 from app.services.classifier import load_model, predict
 
 
@@ -39,7 +39,7 @@ class TestClassifier:
 
     def test_predict_probabilities_sum_to_one(self):
         features = np.random.default_rng(4).random(123)
-        assert MODEL_PATH.exists()
+        assert FULL_MODEL_PATH.exists()
         category, confidence = predict(features)
         assert confidence > 0.0
         assert category != ""
@@ -48,7 +48,7 @@ class TestClassifier:
         import shutil
 
         custom = tmp_path / "custom.joblib"
-        shutil.copy(MODEL_PATH, custom)
+        shutil.copy(FULL_MODEL_PATH, custom)
         load_model(str(custom))
         category, confidence = predict(np.random.rand(123))
         assert category in CATEGORY_MAP.values()

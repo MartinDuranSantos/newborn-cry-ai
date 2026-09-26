@@ -27,7 +27,7 @@ def load_dataset(dataset_path: Path = DATASET_PATH, clean: bool = False) -> tupl
                 audio, sr = load_audio(audio_file)
                 if clean:
                     audio = reduce_noise(audio, sr)
-                    audio = filter_baby_cry(audio, sr)
+                    #audio = filter_baby_cry(audio, sr)
                 features = extract_features(audio, sr)
                 X.append(features)
                 y.append(label)

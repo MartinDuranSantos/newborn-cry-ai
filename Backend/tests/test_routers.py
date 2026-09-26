@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from fastapi.testclient import TestClient
 
-from app.config import CATEGORY_MAP, MODEL_PATH
+from app.config import CATEGORY_MAP
 from app.main import app
 
 SAMPLE_WAV = list(
